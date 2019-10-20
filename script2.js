@@ -20,7 +20,7 @@ window.addEventListener('load', () =>{
 
             const apikey1 = "AdxFSexdbJmEJ2t5J3jWxup3HUdJu2p8";
             const apikey2 = "24d0a2571288360d0fdda56bca3790d4";
-            const weatherAPI = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&APPID=${apikey2}&units=metric`
+            const weatherAPI = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&APPID=${apikey2}&units=metric`
             fetch(weatherAPI)
                 .then(response =>{
                     return response.json();
