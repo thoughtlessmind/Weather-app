@@ -54,7 +54,7 @@ body, html {
 }
 
 body {
-  background-color: rgb(47,80,160);
+  background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
 }
 
 .loader {
@@ -73,6 +73,13 @@ body {
   width: 100%;
   background-color: #fff;
   animation: loader-inner 2s infinite ease-in;
+}
+
+.container{
+  width: 100vw;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @keyframes loader {
